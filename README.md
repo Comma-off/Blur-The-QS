@@ -7,7 +7,6 @@ A GNOME Shell extension that blurs **OSD pop-ups** (volume, brightness), **notif
 ## Requirements
 
 - GNOME Shell 45-50
-- [Blur my Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/) *(optional - manual settings work without it)*
 
 ---
 
