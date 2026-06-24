@@ -2,8 +2,6 @@
 
 A GNOME Shell extension that blurs **OSD pop-ups** (volume, brightness), **notification banners**, and **panel pop-ups** (Quick Settings, calendar, etc.).
 
-Blur parameters are read from [Blur my Shell](https://github.com/aunetx/blur-my-shell)'s **Applications** tab so the look stays consistent across your desktop - or you can set them independently.
-
 ---
 
 ## Requirements
