@@ -61,23 +61,7 @@ The opacity adds a semi-transparent dark layer on top of the blur:
 - `0` - fully transparent overlay, only the blur is visible (most see-through)
 - `128` - 50% dark tint + blur (classic frosted glass)
 - `255` - fully opaque black (no blur visible)
-
-This is the same concept as the **Opacity** slider in BMS's Applications tab.
-
----
-
-## How it works (non-destructive)
-
-This extension **does not modify any GNOME Shell files**. It works entirely through the standard extension API, the same way Blur my Shell does:
-
-| What | How | Cleaned up on disable |
-|------|-----|-----------------------|
-| Blur effect | `actor.add_effect_with_name(..., Shell.BlurEffect)` | `actor.remove_effect_by_name(...)` |
-| Transparent background | `actor.style = 'background-color: rgba(...)'` | Original `actor.style` restored |
-| Signal connections | `object.connect(signal, handler)` | `object.disconnect(id)` |
-
-`Shell.BlurEffect` with `Shell.BlurMode.BACKGROUND` blurs the compositor content *behind* each actor without affecting any other part of the shell. All changes are runtime-only and vanish the moment the extension is disabled.
-
+- 
 ---
 
 ## Uninstall
