@@ -1,0 +1,9 @@
+{
+  "name": "Blur the QS",
+  "description": "Blurs OSD, notification pop-ups, and panel pop-ups. Reads blur settings from Blur my Shell's Applications tab.",
+  "uuid": "blurtheqs@Comma",
+  "shell-version": ["45", "46", "47", "48", "49", "50"],
+  "version": 1,
+  "settings-schema": "org.gnome.shell.extensions.blurtheqs",
+  "url": "https://github.com/Comma"
+}

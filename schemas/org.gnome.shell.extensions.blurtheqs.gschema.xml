@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.blurtheqs"
+      path="/org/gnome/shell/extensions/blurtheqs/">
+
+    <key name="blur-osd" type="b">
+      <default>true</default>
+      <summary>Blur OSD Pop-ups</summary>
+      <description>Apply blur effect to OSD indicators (volume, brightness, etc.)</description>
+    </key>
+
+    <key name="blur-notifications" type="b">
+      <default>true</default>
+      <summary>Blur Notification Pop-ups</summary>
+      <description>Apply blur effect to notification banners</description>
+    </key>
+
+    <key name="blur-panel-popups" type="b">
+      <default>true</default>
+      <summary>Blur Panel Pop-ups</summary>
+      <description>Apply blur effect to pop-ups from panel buttons (calendar, quick settings, etc.)</description>
+    </key>
+
+    <key name="sigma" type="i">
+      <default>30</default>
+      <range min="0" max="100"/>
+      <summary>Blur Radius (Sigma)</summary>
+      <description>Blur radius used when not reading from Blur my Shell</description>
+    </key>
+
+    <key name="brightness" type="d">
+      <default>0.6</default>
+      <range min="0.0" max="1.0"/>
+      <summary>Brightness</summary>
+      <description>Blur brightness used when not reading from Blur my Shell</description>
+    </key>
+
+    <key name="opacity" type="i">
+      <default>0</default>
+      <range min="0" max="255"/>
+      <summary>Background Opacity</summary>
+      <description>Semi-transparent dark overlay applied on top of the blur (0 = none, 255 = fully opaque). Works independently of Blur my Shell.</description>
+    </key>
+
+  </schema>
+</schemalist>
