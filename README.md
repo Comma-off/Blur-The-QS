@@ -1,3 +1,6 @@
+# NOTICE
+This project won't be maintained, as newer versions of Blur my Shell now blur those too, under the "Popups" group.
+
 # Blur the QS
 
 A GNOME Shell extension that blurs **OSD pop-ups** (volume, brightness), **notification banners**, and **panel pop-ups** (Quick Settings, calendar, etc.).
